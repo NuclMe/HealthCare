@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WarszawaHealth</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<a href="#" class="logo">
+						<img src="./img/logo.svg" alt="logo" />
+					</a>
+					<nav class="header__nav nav">
+						<ul class="nav__list">
+							<li><a href="#">Nasi lekarze</a></li>
+							<li><a href="#">Kontakt</a></li>
+							<li class="dropdown">
+								<button class="dropbtn">Programs</button>
+								<div class="dropdown-content">
+									<a href="#">Link 1</a>
+									<a href="#">Link 2</a>
+									<a href="#">Link 3</a>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<button class="mobile-nav-btn">
+						<div class="nav-icon"></div>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="docs.html">Документация</a></li>
+			</ul>
+		</div>
+
+		<main class="docs">
+			<section>
+				<div class="container">
+					<h1 class="title-1">tets</h1>
+					<p>Test</p>
+					<p>test <a href="./docs.html">здесь</a>.</p>
+					<picture>
+						<source srcset="./img/project-02.webp 1x, ./img/project-02@2x.webp 2x" type="image/webp" />
+						<source srcset="./img/project-02.jpg 1x, ./img/project-02@2x.jpg 2x" type="image/jpeg" />
+						<img src="./img/project-02.jpg" alt="" />
+					</picture>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__copyright">
+					<p>Test <a href="#" target="_blank">test</a></p>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

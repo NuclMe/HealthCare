@@ -9,7 +9,33 @@
                     <li><a href="#">Nasi lekarze</a></li>
                     <li><a href="#">Kontakt</a></li>
                     <li class="dropdown">
-                        <button class="dropbtn">Programs</button>
+                        <button class="dropbtn">
+                            <span>Programs</span>
+                            <span class="arrow">
+                                <svg width="25" height="15" viewBox="0 0 25 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.41479 9.15601L12.4148 12.156L15.4148 9.15601" stroke="#2B3F5B"
+                                        stroke-width="1.5" />
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <button class="dropbtn">
+                            <span>O nas</span>
+                            <span class="arrow">
+                                <svg width="25" height="15" viewBox="0 0 25 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.41479 9.15601L12.4148 12.156L15.4148 9.15601" stroke="#2B3F5B"
+                                        stroke-width="1.5" />
+                                </svg>
+                            </span>
+                        </button>
                         <div class="dropdown-content">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
@@ -18,10 +44,39 @@
                     </li>
                 </ul>
             </nav>
-            <button class="mobile-nav-btn">
-                <div class="nav-icon"></div>
-            </button>
+            <div class="settings">
+                <button class="login">
+                    <img src="../../img/user.svg" alt="icon-user">
+                </button>
+                <button class="contact-button">
+                    <span class="contact-button_text"> Skontaktuj się z nami</span>
+                </button>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <span>PL</span>
+                        <span class="arrow">
+                            <svg width="25" height="15" viewBox="0 0 25 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.41479 9.15601L12.4148 12.156L15.4148 9.15601" stroke="#2B3F5B"
+                                    stroke-width="1.5" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">UA</a>
+                        <a href="#">EN</a>
+                        <a href="#">FR</a>
+                    </div>
+                </div>
+                <div class="change-theme">
+                    <button class="theme active">
+                        <img src="../../img/sun.svg" alt="sun icon">
+                    </button>
+                    <button class="theme">
+                        <img src="../../img/moon.svg" alt="moon icon">
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </header>
-@@include('mobile-nav.html')

@@ -5,6 +5,3 @@ Fancybox.bind('[data-fancybox]', {
   // Your custom options
 });
 
-import mobileNav from './modules/mobile-nav.js';
-mobileNav();
-

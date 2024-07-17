@@ -1,0 +1,38 @@
+.packages-wrapper {
+  display: flex;
+  margin-right: -30px;
+  .item {
+    width: 33.3%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #cc8e1e;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+}
+.package-name {
+  color: #cc8e1e;
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-family: Oranienbaum;
+}
+
+.package-desc {
+  color: #2b3f5b;
+  margin-bottom: 16px;
+}
+
+.details {
+  padding: 15px 0;
+  width: 100%;
+  background-color: rgba(204, 142, 30, 0.1);
+  border: 1px solid #cc8e1e;
+  border-radius: 20px;
+  color: #cc8e1e;
+  &:hover {
+    background-color: rgba(204, 142, 30, 0.5);
+    transition: 0.3s;
+    color: #fff;
+  }
+}

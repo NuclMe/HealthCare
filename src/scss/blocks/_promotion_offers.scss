@@ -1,0 +1,145 @@
+.swiper {
+  width: 70%;
+  margin-right: 15px !important;
+}
+.slider-title {
+  font-size: 32px;
+  font-family: Oranienbaum;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+.inner {
+  display: flex;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  display: none;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  display: none;
+}
+
+.slider-text {
+  display: flex;
+  flex-direction: column;
+  .text {
+    margin-bottom: 16px;
+  }
+}
+
+.promotion-details {
+  color: #cc8e1e;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+}
+
+.form-title {
+  color: #2b3f5b;
+  font-size: 32px;
+  font-family: Oranienbaum;
+}
+
+.form {
+  width: 30%;
+  border: 1px solid #cc8e1e;
+  padding: 15px 30px;
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 8px;
+    &:last-child {
+      margin: 0;
+    }
+    label {
+      font-size: 10px;
+      color: #999999;
+      position: absolute;
+      left: 5%;
+      top: 5%;
+    }
+
+    input {
+      font-size: 1.2rem;
+      color: #2b3f5b;
+      border: 1px solid #cc8e1e;
+      border-radius: 8px;
+      padding: 13px;
+      background-color: #f1efe9;
+      outline: none;
+      transition: border-color 0.3s;
+
+      &::placeholder {
+        color: #b6bbc3;
+      }
+
+      &:focus {
+        border-color: #b07e1e;
+      }
+    }
+  }
+}
+.checkbox-block {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1rem;
+  color: #2b3f5b;
+  margin-bottom: 16px;
+  .custom-checkbox {
+    display: none;
+
+    & + label {
+      position: relative;
+      padding-left: 30px;
+      cursor: pointer;
+    }
+
+    & + label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #cc8e1e;
+      border-radius: 4px;
+      background-color: #f1efe9;
+    }
+
+    & + label:after {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid #cc8e1e;
+      border-bottom: 2px solid #cc8e1e;
+      transform: rotate(45deg);
+      opacity: 0;
+    }
+
+    &:checked + label:after {
+      opacity: 1;
+    }
+  }
+}
+
+.submit-form {
+  background-color: #cc8e1e;
+  color: #fff;
+  width: 100%;
+  padding: 19px 0;
+  border-radius: 20px;
+  &:hover {
+    background-color: rgba(204, 142, 30, 0.5);
+    transition: 0.3s;
+    color: #000;
+  }
+}

@@ -10,6 +10,8 @@
 
 	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
 	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -18,9 +20,11 @@
 		<div class="container">
 			@@include('blocks/discount.html')
 			@@include('blocks/packages.html')
+			@@include('blocks/promotion_offers.html')
 		</div>
 	</main>
 	@@include('blocks/footer.html')
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 	<script src="./js/index.bundle.js"></script>
 </body>
 

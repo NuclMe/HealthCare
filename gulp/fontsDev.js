@@ -7,7 +7,7 @@ const fonter = require('gulp-fonter-fix');
 const ttf2woff2 = require('gulp-ttf2woff2');
 
 const srcFolder = './src';
-const destFolder = './build';
+const destFolder = './docs';
 
 gulp.task('otfToTtf', () => {
 	// Ищем файлы шрифтов .otf
